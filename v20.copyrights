@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------
+-- ▖▖▄▖▄▖
+-- ▌▌▄▌▛▌
+-- ▚▘▙▖█▌
+--
+-- @file      v20.copyrights
+-- @copyright See authors list and v20.copyrights for index from name initials
+-- @licence   Gplv3
+-- @encoding  UTF-8
+------------------------------------------------------------------------------
+-- @summary
+-- V20 library copyrights & credits summary 
+--
+-- @description
+-- 
+-- @authors
+-- Stéphane Rivière - sr - sriviere@soweb.io
+--
+-- @versions
+-- 20210321 - 0.1 - sr - initial release
+-- 20210324 - 0.2 - sr - reference to the v20 manual
+------------------------------------------------------------------------------
+
+* Detailed copyrights and credits
+
+Please refer to the document 20 Ada Library User Manual
+
+Located in v20-doc repository.
+
+------------------------------------------------------------------------------
+-- eof
+------------------------------------------------------------------------------
