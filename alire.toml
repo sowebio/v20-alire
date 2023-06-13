@@ -5,7 +5,7 @@ tags = ["console", "general-purpose"]
 authors = ["Stéphane Rivière"]
 maintainers = ["Stéphane Rivière <sriviere@soweb.io>"]
 maintainers-logins = ["sowebio"]
-website = "https://github.com/sowebio"
+website = "https://github.com/sowebio/v20-alire"
 licenses = "GPL-3.0-or-later"
 project-files = ["v20.gpr"]
 [[depends-on]]
