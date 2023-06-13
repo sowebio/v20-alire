@@ -16,10 +16,12 @@
 --
 --  @authors
 --  Stéphane Rivière - sr - sriviere@soweb.io
+--  Arthur Le Floch - alf - developpement@soweb.io
 --
 --  @versions
 --  20210317 - 0.1 - sr - initial release
 --  20210331 - 0.2 - sr - Add Style and GNATColl builds 
+--  20230609 - 0.3 - sr, alf - Update for Alire compatibility
 ------------------------------------------------------------------------------
 
 with "gnatcoll";
@@ -29,9 +31,9 @@ project v20 is
    
    type v20_Build_Type is ("Style", "Debug", "Fast", "Small");
 
-   --  Add -Xv20_Build=Style in the GNATStudio build all window...
+   --  Add -Xv20_Build=Style|Fast|Small in the GNATStudio 
+   --  "build all" window to control the build behaviour. Example:
    --  %builder -Xv20_Build=Style -d %eL -P%PP %config %autoconf %X
-   --  ...to directly control the build behaviour
    
    v20_Build : v20_Build_Type := external ("v20_Build", "Debug");
 

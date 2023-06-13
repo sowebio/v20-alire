@@ -1,9 +1,12 @@
 name = "v20"
-description = "Shiny new project"
-version = "0.1.0-dev"
-
+description = "v20 text based general purpose library"
+version = "0.11"
+tags = ["console", "general-purpose"]
 authors = ["Stéphane Rivière"]
 maintainers = ["Stéphane Rivière <sriviere@soweb.io>"]
-maintainers-logins = ["github-username"]
+maintainers-logins = ["sowebio"]
+website = "https://github.com/sowebio"
+licenses = "GPL-3.0-or-later"
+project-files = ["v20.gpr"]
 [[depends-on]]
 gnatcoll = "^23.0.0"
